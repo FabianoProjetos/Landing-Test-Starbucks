@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="coffe.ico.ico" type="image/x-icon">
+    <title>Starbucks Web Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section>
+<div class="circle"></div>
+<header>
+    <a href="#" ><img src="img/logo (1).png"class="logo"></a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Contact</a></li>
+</ul>
+</header>
+
+<div class="content">
+<div class="textBox">
+<h2> It' s not just Coffe 
+<br> It's  <span>Starbucks</span></h2> 
+<p> Além da já reconhecida ação de tratar o cliente pelo nome, a empresa trabalha busca garantir a felicidade de quem entra em suas unidades. Se você chegar a uma loja da Starbucks e o caixa não tiver troco, a ordem é dar o café de graça</p>
+<a href="#">Learn More</a>
+</div>
+
+<div class="imgBox">
+    <img src="img1.png" alt="starbucks">
+</div>
+</div>
+
+<ul  class="thumb">
+    <li><img src="/img/thumb1.png" onclick="imgSlider('img1.png')"             ></li>
+    <li><img src="/img/thumb2.png" onclick="imgSlider('img2')"              ></li>
+    <li><img src="/img/thumb3.png"  onclick="imgSlider('img3.png')"              ></li>
+</ul>
+
+<ul class="sci">
+ <li><a href="#"><img src="/img/facebook.png"></a></li>
+ <li><a href="#"><img src="/img/instagram.png"></a></li>
+ <li><a href="#"><img src="/img/twitter.png"></a></li>
+ </ul>
+</section>
+
+
+<script type="text/javascript">
+function imgSlider(anything){
+document.querySelector('.starbucks').src = anything;
+
+
+}
+
+
+</script>
+
+
+
+</body>
+</html>
